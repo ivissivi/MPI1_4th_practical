@@ -6,13 +6,196 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="233dp"
+        android:layout_height="46dp"
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="106dp"
+        android:importantForAutofill="no"
+        android:inputType="" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Kalkulators"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn5"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="5"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="2"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btn6"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="6"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/btn0"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="0"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="4"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/btn7"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="7"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="-"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="*"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/btnEquals"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="="
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/btn10"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="."
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/btn8"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="8"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="3"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="/"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/btn9"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="9"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="C"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="175dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
