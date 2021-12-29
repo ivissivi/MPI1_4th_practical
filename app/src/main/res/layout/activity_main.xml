@@ -24,21 +24,24 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,MissingConstraints" />
 
-    <EditText
-        android:id="@+id/textEdit"
-        android:layout_width="318dp"
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginStart="46dp"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="157dp"
-        android:layout_marginEnd="47dp"
+        android:layout_marginEnd="45dp"
         android:layout_marginBottom="526dp"
+        android:textSize="34sp"
+        android:background="@drawable/input_field"
+        android:maxLines="1"
         android:importantForAutofill="no"
         android:inputType="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btn1"
@@ -188,7 +191,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="171dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="170dp"
         android:layout_marginBottom="540dp"
         android:text="Kalkulators"
@@ -237,7 +240,7 @@
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
-        android:id="@+id/btn10"
+        android:id="@+id/btnDecimal"
         style="?android:attr/buttonBarStyle"
         android:layout_width="70dp"
         android:layout_height="70dp"
