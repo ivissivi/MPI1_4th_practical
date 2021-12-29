@@ -6,196 +6,343 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="233dp"
-        android:layout_height="46dp"
-        tools:ignore="LabelFor,MissingConstraints"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="106dp"
-        android:importantForAutofill="no"
-        android:inputType="" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kalkulators"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047"
-        tools:ignore="HardcodedText" />
-
-    <Button
-        android:id="@+id/btn5"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="5"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="288dp" />
-
     <Button
         android:id="@+id/btn2"
         style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/custom_button"
         android:text="2"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="350dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textEdit"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="526dp"
+        android:importantForAutofill="no"
+        android:inputType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btn1"
         style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/custom_button"
         android:text="1"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="350dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/btnAdd"
         style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/functional_button"
         android:text="+"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="350dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn5"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/custom_button"
+        android:text="5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/btn6"
         style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/custom_button"
         android:text="6"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="288dp" />
-
-    <Button
-        android:id="@+id/btn0"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="0"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="410dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/btn4"
         style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/custom_button"
         android:text="4"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="288dp" />
-
-    <Button
-        android:id="@+id/btn7"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="7"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="225dp" />
-
-    <Button
-        android:id="@+id/btnSubtract"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="-"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="288dp" />
-
-    <Button
-        android:id="@+id/btnMultiply"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="*"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="225dp" />
-
-    <Button
-        android:id="@+id/btnEquals"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="="
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="410dp" />
-
-    <Button
-        android:id="@+id/btn10"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="."
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="410dp" />
-
-    <Button
-        android:id="@+id/btn8"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="8"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="225dp" />
-
-    <Button
-        android:id="@+id/btn3"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="3"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="350dp" />
-
-    <Button
-        android:id="@+id/btnDivide"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="/"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="175dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/btn9"
         style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/custom_button"
         android:text="9"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="225dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn7"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/custom_button"
+        android:text="7"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/custom_button"
+        android:text="-"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="540dp"
+        android:text="Kalkulators"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/custom_button"
+        android:text="*"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnEquals"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/custom_button"
+        android:text="="
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn10"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/custom_button"
+        android:text="."
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn0"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/custom_button"
+        android:text="0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn8"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/custom_button"
+        android:text="8"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/custom_button"
+        android:text="3"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="427dp"
+        android:background="@drawable/custom_button"
+        android:text="/"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/btnClear"
         style="?android:attr/buttonBarStyle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="427dp"
+        android:background="@drawable/custom_button"
         android:text="C"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="175dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
